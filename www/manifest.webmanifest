@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "CS Coach – Civil Service Exam Reviewer",
+  "short_name": "CS Coach",
+  "description": "Lessons, practice questions, analytics and a tutor buddy for the Philippine Civil Service Exam (Professional).",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f9fc",
+  "theme_color": "#1f5cf5",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

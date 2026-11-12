@@ -1,0 +1,20 @@
+{
+  "name": "cs-coach",
+  "version": "1.0.0",
+  "description": "CS Coach – Civil Service Exam (Professional) reviewer for web, Android and iOS",
+  "private": true,
+  "scripts": {
+    "start": "npx serve www",
+    "cap:sync": "npx cap sync",
+    "android": "npx cap add android && npx cap sync android && npx cap open android",
+    "ios": "npx cap add ios && npx cap sync ios && npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
